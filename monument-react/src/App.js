@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Landing />
-      {/* <Blog /> */}
+      <Blog />
       <footer>
 				<div className="wrap">
 					<div className="social-links">
