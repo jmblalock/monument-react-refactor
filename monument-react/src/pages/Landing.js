@@ -1,7 +1,6 @@
 import React from 'react';
+import Archive from '../components/LandingArchive';
 import Header from '../components/LandingHeader';
-
-import articleImageOne from '../images/article_1.jpg';
 
 import './Landing.css';
 
@@ -9,7 +8,7 @@ const Landing = (props) => {
 	return (
 		<div>
 			<Header />
-			<img src={articleImageOne} alt="Cactus"/>
+			<Archive />
 		</div>
 	)
 }
